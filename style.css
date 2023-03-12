@@ -1,0 +1,427 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+}
+
+
+
+
+a{
+  color: white;
+}
+
+nav{
+  background-color: rgba(49, 49, 49, 0.651);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+
+
+.list{
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Tilt Warp', cursive;
+}
+
+.logo{
+  width: 220px;
+  height: 40px;  
+  display: inline-block;
+}
+
+
+.img1{
+  display: flex;
+  justify-content: center;
+  padding-top: 15px ;
+}
+
+
+
+#img2{
+  width: 400px;
+
+}
+
+
+.videos{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.vid{
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+hr{
+  margin-top: 10px;
+}
+
+.vid1:hover img{
+    opacity: 80%;
+    background-color: black;
+    border: 2px solid black;
+  padding: 5px;
+}
+
+.vid1 h2{
+  color: black;
+  justify-content: center;
+  display: flex;
+
+}
+
+
+.vid2:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.vid2 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid3:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.vid3 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid4:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.vid4 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+#fds{
+  margin-top: 200px;
+  color: red;
+}
+
+.list1z{
+  border-bottom: 3px solid  rgb(92, 92, 92);
+}
+
+.list1z:hover{
+  background-color: rgb(92, 92, 92);
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-left: -8px;
+  border: 8px solid rgb(92, 92, 92);
+  
+}
+.list1:hover{
+  background-color: rgb(92, 92, 92);
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-left: -8px;
+  border: 8px solid rgb(92, 92, 92);
+  
+}
+
+.list2:hover{
+  background-color: rgb(92, 92, 92);
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-left: -8px;
+  border: 8px solid rgb(92, 92, 92);
+}
+
+.list3:hover{
+  background-color: rgb(92, 92, 92);
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-left: -8px;
+  border: 8px solid rgb(92, 92, 92);
+
+}
+
+.rev{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#revo{
+  display: inline-block;
+  border: 2px solid black;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+.tabela2{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  border-collapse: separate;
+
+}
+
+#revof{
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.tabela{
+  border: 2px solid black;
+  text-align: center;
+  position: absolute;
+  font-size: 14px;
+  font: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px;
+  background-color: aliceblue;
+  margin-bottom: 5px;
+}
+
+.tabela p{
+  padding-bottom: 5px;
+}
+
+.tabela li{
+  padding-bottom: 5px;
+
+}
+
+
+
+.pt2{
+  display: block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font: bold;
+  font-size: 18px;
+  text-align: center;
+  flex-direction: column;
+  background-color:rgba(49, 49, 49, 0.651); ;
+  margin-top: 30px;
+}
+
+.tab2{
+  border-right: 2px solid black;
+  margin-left: 80px;
+  margin-right: 400px;
+  margin-top: 20px;
+  border-left: 2px solid transparent;
+  padding-right: 20px;
+
+}
+
+
+
+.fotos{
+  display: inline-block;
+  margin-top: 50px;
+
+}
+
+.fotos img{
+  height: 300px;
+  width: 350px;
+  padding-left: 40px;
+  display: inline-block;
+ 
+}
+
+#pinturas{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.vid5:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid5 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid6:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid6 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid8:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid8 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid9:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid9 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid10:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid10 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vid11:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid11 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}.vid12:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid12 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}.vid13:hover img{
+  opacity: 80%;
+  background-color: black;
+  border: 2px solid black;
+padding: 5px;
+}
+
+.vid13 h2{
+color: black;
+justify-content: center;
+display: flex;
+
+}
+
+.vido{
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.vide{
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.peq{
+  display: flex;
+  align-items: center;
+
+}
+
+.peq input{
+  outline-style: none;
+  border-radius: 5px;
+  border: rgb(190, 190, 190) 1px solid;
+  width: 400px;
+  height: 35px;
+  padding-left: 5px;
+}
+
+.peq button{
+  margin-left: 5px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: white;
+  border: rgb(116, 116, 116) 1px solid;
+  width: 50px;
+}
+
+.material-symbols-outlined{
+  color: rgb(116, 116, 116);
+}
