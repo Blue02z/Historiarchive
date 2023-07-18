@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-image: url(c04bd07d710304d1b97c8bacb5335845.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom:50px ;
+    }
+
+    .logo{
+    width: 220px;
+    height: 40px;  
+    display: inline-block;
+    }
+
+    .rdp{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: bold;
+font-size: 18px;
+text-align: center;
+flex-direction: column;
+background-color: rgba(83, 83, 83);
+margin-top: 30px;
+width: 100%;
+}
+
+.tabela2{
+display: flex;
+justify-content: flex-end;
+margin-right: 10px;
+border-collapse: separate;
+
+}
+
+
+
+.tabela{
+border: 2px solid black;
+text-align: center;
+position: absolute;
+font-size: 14px;
+font: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 5px;
+background-color: aliceblue;
+margin-bottom: 5px;
+}
+
+.tabela p{
+padding-bottom: 5px;
+}
+
+.tabela li{
+padding-bottom: 5px;
+
+}
+
+.tab2{
+border-right: 2px solid black;
+margin-left: 80px;
+margin-right: 400px;
+margin-top: 20px;
+border-left: 2px solid transparent;
+padding-right: 20px;
+}
+
+#revof{
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: white;
+padding: 10px;
+}
+
+.tab2 h3{
+font-size:34px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.accordion-item {
+margin-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.accordion-header {
+background-color: #ffffff;
+padding: 10px;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.accordion-header img {
+margin-right: 10px;
+}
+
+.accordion-header h1 {
+flex-grow: 1;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(0, 0, 0);
+}
+
+.accordion-content {
+display: none;
+padding: 10px;
+background-color: rgba(255, 255, 255, 0.685);
+font-size: 16px;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+    
+    
+        
+        .tab2 h3{
+        font-size:34px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .tabela2{
+                    display: flex;
+                    justify-content: center;
+                    
+            
+            }
+                
+        #revof{
+            margin-top: 400px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            }
+
+            .tab2{
+                display: flex;
+                justify-content: center;
+                flex-direction: column ;
+            }
+
+            .tab2{
+                border-right: 2px  ;
+                margin-left: 40px;
+                margin-right: 40px;
+                margin-top: 20px;
+                border-left: 2px solid transparent;
+                padding-right: 20px;
+                }
+}
